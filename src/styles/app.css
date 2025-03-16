@@ -1,0 +1,9 @@
+
+
+.container{
+    background-color: rgb(232, 106, 106);
+    max-width: 556px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}

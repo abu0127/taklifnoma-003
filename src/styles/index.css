@@ -1,0 +1,12 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Browzko';
+  src: url('../font/Browzko.woff2') format('woff2'),
+      url('../font/Browzko.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

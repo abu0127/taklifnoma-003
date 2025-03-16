@@ -1,0 +1,42 @@
+ :root{
+    --window-bg: rgba(24, 12, 0, 0.512);
+ }
+
+
+.img{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url('../imgs/home-img-2.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    overflow: hidden;
+}
+.window{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background-color: var(--window-bg);
+    z-index: 2;
+    bottom: -200px;
+    opacity: 0;
+    box-shadow: 0 -5px 10px 5px  var(--window-bg) ;
+    backdrop-filter: blur(1px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.greet{
+    padding: 10px;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Browzko';
+}
+.windowUp{animation: window .7s 2s forwards;}
+@keyframes window {
+    100%{
+        opacity: 1;
+        bottom: 0;
+    }
+}
